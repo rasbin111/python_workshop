@@ -2,3 +2,4 @@ test_demo/
 **/__pycache__/
 __pycache__/
 jupyter/
+.venv/
