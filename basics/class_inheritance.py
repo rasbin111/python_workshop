@@ -16,7 +16,7 @@ class Student(Person):
     def __init__(self, name, age, address, passed=True, marks=0):
         self.passed = passed
         self.marks = marks
-        return super().__init__(name, age, address)
+        super().__init__(name, age, address)
 
     def print_result(self):
         if self.passed:
